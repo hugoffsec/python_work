@@ -1,3 +1,1 @@
-# Repositório dedicado a alguns exercícios de python.
-
-Hugo Santos
+# Repository dedicated to some python exercises
