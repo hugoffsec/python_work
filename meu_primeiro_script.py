@@ -1,8 +1,8 @@
-# 1. Definição de uma função para saudar e analisar o objetivo 
-def verificar_objetivo(nome, foco): 
-    print(f"\nOlá, {nome}! Bem-vindo ao seu ambiente Python.") 
+# 1. Definição de uma função para saudar e analisar o objetivo
+def verificar_objetivo(nome, foco):
+    print(f"\nOlá, {nome}! Bem-vindo ao seu ambiente Python.")
 
-# 2. Estrutura condicional para verificar o foco escolhido
+    # 2. Estrutura condicional para verificar o foco escolhido
     if foco.lower() == "pentest":
         print("Excelente! Você começará aprendendo a lógica e depois avançará para segurança de redes.")
     elif foco.lower() == "web":
@@ -18,7 +18,7 @@ def main():
     nome_usuario = input("Digite o seu nome: ")
     foco_estudo = input("Qual o seu foco principal hoje? (pentest / web / outro): ")
 
-    # Chamada da função passando os dados capturados 
+    # Chamada da função passando os dados capturados
     verificar_objetivo(nome_usuario, foco_estudo)
 
 # Execução do programa
