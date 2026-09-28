@@ -1,1 +1,1 @@
-# Repository dedicated to some python exercises
+# Python exercises
